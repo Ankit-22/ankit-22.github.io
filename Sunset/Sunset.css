@@ -1,0 +1,211 @@
+div.anim{
+	position: relative;
+	display: block;
+	background: #FE5B35;
+	height: 538px;
+	width: 100%;
+	animation-name: sky;
+	animation-duration: 10s;
+	animation-fill-mode: forwards;
+}
+img.sun{
+	position: absolute;
+	top:10px;
+	bottom: 60px;
+	left: 700px;
+	z-index: 1;
+	animation-name: sun;
+	animation-duration: 10s;
+	animation-fill-mode: forwards; 
+}
+@keyframes sun{
+	100% {top: 200px;}
+}
+@keyframes sky{
+	100% {background-color: #0C090A;}
+}
+@keyframes cloud{
+	100% {opacity: 0;}
+}
+@keyframes star{
+	100% {border-bottom-color: gold;color: gold;}
+}
+img.cloud1{
+	position: absolute;
+	top:10px;
+	left:50px;
+	opacity:0.7;
+	z-index: 3;
+	animation-name: cloud;
+	animation-duration: 10s;
+	animation-fill-mode: forwards;
+}
+img.cloud2{
+	position: absolute;
+	top:10px;
+	left:500px;
+	opacity:0.7;
+	z-index: 3;
+	animation-name: cloud;
+	animation-duration: 10s;
+	animation-fill-mode: forwards;
+}
+img.mountain{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+body{
+	margin: 0px;
+}
+#star1 {
+  	margin: 0px 0;
+  	position: absolute;
+	top: 10px;
+	left:130px;
+  	display: block;
+  	color: #FE5B35;
+  	width: 0px;
+  	height: 0px;
+  	border-right: 10px solid transparent;
+	border-bottom: 7px solid #FE5B35;
+	border-left: 10px solid transparent;
+	transform: rotate(35deg);
+	animation-name: star;
+	animation-fill-mode: forwards;
+	animation-duration: 10s;
+}
+#star2 {
+  	margin: 0px 0;
+  	position: absolute;
+	top: 50px;
+	left:370px;
+  	display: block;
+  	color: #FE5B35;
+  	width: 0px;
+  	height: 0px;
+  	border-right: 10px solid transparent;
+	border-bottom: 7px solid #FE5B35;
+	border-left: 10px solid transparent;
+	transform: rotate(35deg);
+	animation-name: star;
+	animation-fill-mode: forwards;
+	animation-duration: 10s;
+}
+#star3 {
+  	margin: 0px 0;
+  	position: absolute;
+	top: 40px;
+	left:890px;
+  	display: block;
+  	color: #FE5B35;
+  	width: 0px;
+  	height: 0px;
+  	border-right: 10px solid transparent;
+	border-bottom: 7px solid #FE5B35;
+	border-left: 10px solid transparent;
+	transform: rotate(35deg);
+	animation-name: star;
+	animation-fill-mode: forwards;
+	animation-duration: 10s;
+}
+#star1:before {
+  border-bottom: 8px solid #FE5B35;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -5px;
+  left: -7px;
+  display: block;
+  content: '';
+  transform: rotate(-35deg);
+  animation-name: star;
+  animation-fill-mode: forwards;
+  animation-duration: 10s;
+}
+#star2:before {
+  border-bottom: 8px solid #FE5B35;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -5px;
+  left: -7px;
+  display: block;
+  content: '';
+  transform: rotate(-35deg);
+  animation-name: star;
+  animation-fill-mode: forwards;
+  animation-duration: 10s;
+}
+#star3:before {
+  border-bottom: 8px solid #FE5B35;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -5px;
+  left: -7px;
+  display: block;
+  content: '';
+  transform: rotate(-35deg);
+  animation-name: star;
+  animation-fill-mode: forwards;
+  animation-duration: 10s;
+}
+#star1:after {
+  position: absolute;
+  display: block;
+  color: #FE5B35;
+  top: 0px;
+  left: -10px;
+  width: 0px;
+  height: 0px;
+  border-right: 10px solid transparent;
+  border-bottom: 7px solid #FE5B35;
+  border-left: 10px solid transparent;
+  transform: rotate(-70deg);
+  content: '';
+  animation-name: star;
+  animation-fill-mode: forwards;
+  animation-duration: 10s;
+}
+#star2:after {
+  position: absolute;
+  display: block;
+  color: #FE5B35;
+  top: 0px;
+  left: -10px;
+  width: 0px;
+  height: 0px;
+  border-right: 10px solid transparent;
+  border-bottom: 7px solid #FE5B35;
+  border-left: 10px solid transparent;
+  transform: rotate(-70deg);
+  content: '';
+  animation-name: star;
+  animation-fill-mode: forwards;
+  animation-duration: 10s;
+}
+#star3:after {
+  position: absolute;
+  display: block;
+  color: #FE5B35;
+  top: 0px;
+  left: -10px;
+  width: 0px;
+  height: 0px;
+  border-right: 10px solid transparent;
+  border-bottom: 7px solid #FE5B35;
+  border-left: 10px solid transparent;
+  transform: rotate(-70deg);
+  content: '';
+  animation-name: star;
+  animation-fill-mode: forwards;
+  animation-duration: 10s;
+}
