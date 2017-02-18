@@ -59,6 +59,12 @@ img.mountain{
 body{
 	margin: 0px;
 }
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
 #star1 {
   	margin: 0px 0;
   	position: absolute;
