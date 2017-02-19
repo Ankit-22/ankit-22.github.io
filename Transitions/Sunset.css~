@@ -1,0 +1,25 @@
+div.anim{
+	position: relative;
+	display: block;
+	background-color: #FE5B35;
+	height: 538px;
+	width: 100%;
+}
+img.sun{
+	position: absolute;
+	top:10px;
+	bottom: 60px;
+	left: 700px;
+	z-index: 1;
+}
+img.mountain{
+	position: absolute;
+	top: 0px;
+	/*bottom: 0px;*/
+	left: 0px;
+	/*right: 0px;*/
+	z-index: 2;
+}
+body{
+	margin: 0px;
+}

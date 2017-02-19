@@ -7,6 +7,7 @@ div.anim{
 	animation-name: sky;
 	animation-duration: 10s;
 	animation-fill-mode: forwards;
+  animation-delay: 2s;
 }
 img.sun{
 	position: absolute;
@@ -16,7 +17,8 @@ img.sun{
 	z-index: 1;
 	animation-name: sun;
 	animation-duration: 10s;
-	animation-fill-mode: forwards; 
+	animation-fill-mode: forwards;
+  animation-delay: 2s; 
 }
 @keyframes sun{
 	100% {top: 200px;}
@@ -39,6 +41,7 @@ img.cloud1{
 	animation-name: cloud;
 	animation-duration: 10s;
 	animation-fill-mode: forwards;
+  animation-delay: 2s;
 }
 img.cloud2{
 	position: absolute;
@@ -49,6 +52,7 @@ img.cloud2{
 	animation-name: cloud;
 	animation-duration: 10s;
 	animation-fill-mode: forwards;
+  animation-delay: 2s;
 }
 img.mountain{
 	position: absolute;
@@ -58,12 +62,6 @@ img.mountain{
 }
 body{
 	margin: 0px;
-}
-.preload * {
-  -webkit-transition: none !important;
-  -moz-transition: none !important;
-  -ms-transition: none !important;
-  -o-transition: none !important;
 }
 #star1 {
   	margin: 0px 0;
@@ -81,6 +79,7 @@ body{
 	animation-name: star;
 	animation-fill-mode: forwards;
 	animation-duration: 10s;
+  animation-delay: 2s;
 }
 #star2 {
   	margin: 0px 0;
@@ -98,6 +97,7 @@ body{
 	animation-name: star;
 	animation-fill-mode: forwards;
 	animation-duration: 10s;
+  animation-delay: 2s;
 }
 #star3 {
   	margin: 0px 0;
@@ -115,6 +115,7 @@ body{
 	animation-name: star;
 	animation-fill-mode: forwards;
 	animation-duration: 10s;
+  animation-delay: 2s;
 }
 #star1:before {
   border-bottom: 8px solid #FE5B35;
@@ -131,6 +132,7 @@ body{
   animation-name: star;
   animation-fill-mode: forwards;
   animation-duration: 10s;
+  animation-delay: 2s;
 }
 #star2:before {
   border-bottom: 8px solid #FE5B35;
@@ -147,6 +149,7 @@ body{
   animation-name: star;
   animation-fill-mode: forwards;
   animation-duration: 10s;
+  animation-delay: 2s;
 }
 #star3:before {
   border-bottom: 8px solid #FE5B35;
@@ -163,6 +166,7 @@ body{
   animation-name: star;
   animation-fill-mode: forwards;
   animation-duration: 10s;
+  animation-delay: 2s;
 }
 #star1:after {
   position: absolute;
@@ -180,6 +184,7 @@ body{
   animation-name: star;
   animation-fill-mode: forwards;
   animation-duration: 10s;
+  animation-delay: 2s;
 }
 #star2:after {
   position: absolute;
@@ -197,6 +202,7 @@ body{
   animation-name: star;
   animation-fill-mode: forwards;
   animation-duration: 10s;
+  animation-delay: 2s;
 }
 #star3:after {
   position: absolute;
@@ -214,4 +220,5 @@ body{
   animation-name: star;
   animation-fill-mode: forwards;
   animation-duration: 10s;
+  animation-delay: 2s;
 }

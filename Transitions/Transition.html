@@ -1,0 +1,65 @@
+<htmL>
+<head>
+<title>Transitions</title>
+<style>
+div.anim{
+	background-color: orange;
+}
+div.circle {
+  width: 10px;
+  height: 10px;
+  float: left;
+  border-radius: 50%;
+  font-size: 30px;
+  color: white;
+  line-height: 400px;
+  text-align: center;
+  background: blue;
+  transition: width 2s,height 2s,background-color 2s,transform 4s 2s;
+}
+div.circle:hover
+{
+	width: 400px;
+	height: 400px;
+	background-color: green;
+	transform: translate(400px,150px) rotateZ(360deg);
+}
+div.rectangle
+{
+	width:5px;
+	height:10px;
+	float: left;
+	font-size: 30px;
+	text-align: center;
+	line-height: 200px;
+	margin: 0px 200px auto;
+	color: white;
+	background-color: red;
+	transition: width 2s,height 2s,background-color 2s,color 2s,transform 2s 2s;
+}
+div.rectangle:hover
+{
+	width:200px;
+	height:400px;
+	background-color: yellow;
+	color:blue;
+	transform: rotateY(360deg);
+}
+img.sun{
+	top:30px;
+	left: 50%;
+	z-index: 1;
+}
+img.mountain{
+	top: 20px;
+	left: 0px;
+	z-index: 2;
+}
+</style>
+</head>
+<BODY>
+<div class="circle">I am a circle
+</div>
+<div class="rectangle"> I am a rectangle</div><br>
+</BODY>
+</htmL>
