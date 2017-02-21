@@ -1,3 +1,4 @@
+div#preload { display: none; }
 div.anim{
 	position: relative;
 	display: block;
@@ -41,7 +42,7 @@ img.cloud1{
 	animation-name: cloud;
 	animation-duration: 10s;
 	animation-fill-mode: forwards;
-  animation-delay: 2s;
+  animation-delay: 2s; 
 }
 img.cloud2{
 	position: absolute;
@@ -52,7 +53,7 @@ img.cloud2{
 	animation-name: cloud;
 	animation-duration: 10s;
 	animation-fill-mode: forwards;
-  animation-delay: 2s;
+  animation-delay: 2s; 
 }
 img.mountain{
 	position: absolute;
@@ -79,7 +80,7 @@ body{
 	animation-name: star;
 	animation-fill-mode: forwards;
 	animation-duration: 10s;
-  animation-delay: 2s;
+  animation-delay: 2s; 
 }
 #star2 {
   	margin: 0px 0;
@@ -97,7 +98,7 @@ body{
 	animation-name: star;
 	animation-fill-mode: forwards;
 	animation-duration: 10s;
-  animation-delay: 2s;
+  animation-delay: 2s; 
 }
 #star3 {
   	margin: 0px 0;
@@ -115,7 +116,7 @@ body{
 	animation-name: star;
 	animation-fill-mode: forwards;
 	animation-duration: 10s;
-  animation-delay: 2s;
+  animation-delay: 2s; 
 }
 #star1:before {
   border-bottom: 8px solid #FE5B35;
@@ -132,7 +133,7 @@ body{
   animation-name: star;
   animation-fill-mode: forwards;
   animation-duration: 10s;
-  animation-delay: 2s;
+  animation-delay: 2s; 
 }
 #star2:before {
   border-bottom: 8px solid #FE5B35;
@@ -149,7 +150,7 @@ body{
   animation-name: star;
   animation-fill-mode: forwards;
   animation-duration: 10s;
-  animation-delay: 2s;
+  animation-delay: 2s; 
 }
 #star3:before {
   border-bottom: 8px solid #FE5B35;
@@ -166,7 +167,7 @@ body{
   animation-name: star;
   animation-fill-mode: forwards;
   animation-duration: 10s;
-  animation-delay: 2s;
+  animation-delay: 2s; 
 }
 #star1:after {
   position: absolute;
@@ -202,7 +203,7 @@ body{
   animation-name: star;
   animation-fill-mode: forwards;
   animation-duration: 10s;
-  animation-delay: 2s;
+  animation-delay: 2s; 
 }
 #star3:after {
   position: absolute;
