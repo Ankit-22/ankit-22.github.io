@@ -3,7 +3,7 @@ div.anim{
 	position: relative;
 	display: block;
 	background: #FE5B35;
-	height: 538px;
+  height: 538px;
 	width: 100%;
 	animation-name: sky;
 	animation-duration: 10s;
@@ -31,7 +31,8 @@ img.sun{
 	100% {opacity: 0;}
 }
 @keyframes star{
-	100% {border-bottom-color: gold;color: gold;}
+	50% {border-bottom-color: white;color: white;}
+  100% {border-bottom-color: gold;color: gold;}
 }
 img.cloud1{
 	position: absolute;
